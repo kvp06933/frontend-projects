@@ -2,5 +2,55 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+body{
+    background-color: #fafafa;
+}
+.hero{
+    padding: 2rem 2rem;
+    background:linear-gradient(0deg, rgba(5, 5, 5, 0.5), rgba(5, 5, 5, 0.5)), url("/img/furniture-hero.jpg");
+    color: white;
+    font-size: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#hero-heading{
+    font-size: 10rem;
+}
+#abra-dark{
+    display:none
+}
+.btn{
+    margin-top: 3rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid #333333;
+    color:white;
+    background-color: #002547; 
+}
+.card-container{
+    display: flex;
+    padding: 2rem 4rem;
+}
+.card{
+    display:flex;
+    width:100%;
+}
+.card-details{
+    margin-left:
 }
 
